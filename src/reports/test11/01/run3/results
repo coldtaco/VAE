@@ -1,0 +1,37 @@
+Model has 2 inputs, class 0 is where the second input is drawn from a normal distribution with mean of the first input, class 1 is where it isnt. Proper implementation of VAE predicting distribution without best F1 using encoder
+losses: ['mean_absolute_error', 'mean_absolute_error', 'passon']
+loss_weights: [1, 1, -10]
+CEweights: [[1, 10], [1, 1]]
+Average accuracy: 0.0
+Balanced acc: nan
+Average specificity: 0.0
+Average sensitivity (Detection rate): nan
+Average loss: [11.19342937]
+Average False Alarm: nan
+Average F1: 0.0
+Average cm:
+||True 0| True 1|
+|-|-|-|
+|Predicted 0|0.0|0.0
+|Predicted 1|100.0|0.0
+
+|Acc|Spec|Loss|
+0.0|0.0|[11.19342937]
+CV took 192.63496977100002 seconds
+Pure training took 169.18141529899998
+Test result on unseen data:
+Average accuracy: 0.7417
+Balanced acc: 0.7417
+Average specificity: 0.6882
+Average sensitivity (Detection rate): 0.7952
+Average loss: nan
+Average False Alarm: 0.2048
+Average F1: 0.7548172757475083
+Average cm:
+||True 0| True 1|
+|-|-|-|
+|Predicted 0|344.1|102.4
+|Predicted 1|155.9|397.6
+
+|Acc|Spec|Loss|
+0.7417|0.6882|nan

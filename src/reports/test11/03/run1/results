@@ -1,0 +1,37 @@
+Model has 2 inputs, class 0 is where the second input is drawn from a normal distribution with mean of the first input, class 1 is where it isnt. Vampprior trainign with outliers                
+losses: ['mean_absolute_error', 'mean_absolute_error', 'passon']
+loss_weights: [1, 1, 5]
+CEweights: [[1, 1], [1, 1]]
+Average accuracy: 0.14300000000000002
+Balanced acc: nan
+Average specificity: 0.14300000000000002
+Average sensitivity (Detection rate): nan
+Average loss: [9.77587938]
+Average False Alarm: nan
+Average F1: 0.0
+Average cm:
+||True 0| True 1|
+|-|-|-|
+|Predicted 0|14.3|0.0
+|Predicted 1|85.7|0.0
+
+|Acc|Spec|Loss|
+0.14300000000000002|0.14300000000000002|[9.77587938]
+CV took 450.40138927299995 seconds
+Pure training took 444.9804052690015
+Test result on unseen data:
+Average accuracy: 0.8349
+Balanced acc: 0.8349
+Average specificity: 0.8368
+Average sensitivity (Detection rate): 0.833
+Average loss: nan
+Average False Alarm: 0.167
+Average F1: 0.8345857128544234
+Average cm:
+||True 0| True 1|
+|-|-|-|
+|Predicted 0|418.4|83.5
+|Predicted 1|81.6|416.5
+
+|Acc|Spec|Loss|
+0.8349|0.8368|nan
